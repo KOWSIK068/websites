@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
             bar.style.height="300px"
             bar.style.transform="rotate(360deg)"
             setTimeout(()=>{
-                bar.style.backgroundColor="blue"
+                bar.style.backgroundColor="green"
                 bar_content.style.display="block"
             },2000)
         }
