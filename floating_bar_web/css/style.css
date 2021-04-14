@@ -12,8 +12,10 @@ body{
 #go_back_button{
     margin: 20px;
     margin-bottom: 10px;
+    color: red;
 }
 
 #button{
     margin: 10px;
+    color: red;
 }
