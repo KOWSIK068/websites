@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.button{
+    text-align: center;
+    cursor: pointer;
+    font-weight: 550;
+    border-radius: 5%;
+    padding: 3px 10px;
+    width: fit-content;
+}
+
+.button_hover:hover{
+    box-shadow: 0px  4px 4px rgba(0, 0, 0, 0.123),
+                0px -4px 4px rgba(0, 0, 0, 0.123),
+               -4px  0px 4px rgba(0, 0, 0, 0.123),
+                4px  0px 4px rgba(0, 0, 0, 0.123);
+}
+
+.button_text_hover:hover{
+    text-shadow: 1px 1px black;
+}
+
+*::-webkit-scrollbar
+{
+    width: 5px;
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb
+{
+    width: 2px;
+    background: rgb(255, 94, 0);
+    border-radius: 50px;
+    height: 30vh;
+}
+
+/* stylings */
+
+@media (max-width:779.99px){
+}
+
+@media (min-width:780px){
+}
